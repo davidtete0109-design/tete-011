@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de David Coello: sobre mí, habilidades y proyectos web.">
+  <title>Sobre mí | David Coello</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header" id="inicio">
+    <nav class="navbar container" aria-label="Menú principal">
+      <a class="brand" href="#inicio">David<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">PORTAFOLIO PERSONAL</p>
+        <h1>Hola, soy <span>David Coello</span></h1>
+        <p class="hero-text">Estudiante de Informática interesado en el diseño web, la tecnología y la creación de proyectos digitales.</p>
+        <div class="hero-actions">
+          <a class="button" href="#proyectos">Ver mis proyectos</a>
+          <a class="button button-outline" href="#sobre-mi">Conocer más</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Presentación">
+        <div class="hero-symbol">&lt;/&gt;</div>
+        <p>Ideas que se convierten en proyectos.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="sobre-mi">
+      <div class="container narrow">
+        <p class="eyebrow">UN POCO SOBRE MÍ</p>
+        <h2>Sobre mí</h2>
+        <p class="section-intro">Soy David, estudiante del área de Informática. Me gusta aprender cómo funcionan las páginas web y usar herramientas digitales para desarrollar ideas creativas. En este portafolio comparto algunos de mis trabajos y lo que voy aprendiendo.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="habilidades">
+      <p class="eyebrow">LO QUE ESTOY APRENDIENDO</p>
+      <h2>Habilidades y tecnologías</h2>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">&lt;/&gt;</div><h3>HTML</h3><p>Estructura y organización del contenido de una página web.</p></article>
+        <article class="skill-card"><div class="skill-icon">#</div><h3>CSS</h3><p>Colores, estilos, diseños adaptables y presentación visual.</p></article>
+        <article class="skill-card"><div class="skill-icon">B</div><h3>Bootstrap</h3><p>Componentes y diseños que ayudan a crear sitios responsivos.</p></article>
+        <article class="skill-card"><div class="skill-icon">✦</div><h3>Diseño digital</h3><p>Creatividad, composición y edición de imágenes para proyectos.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="proyectos">
+      <div class="container">
+        <p class="eyebrow">TRABAJOS DESTACADOS</p>
+        <h2>Mis proyectos principales</h2>
+        <p class="section-intro">Estos son algunos proyectos que representan mis intereses y lo que voy desarrollando.</p>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-image tu-alta-pinta">
+              <img src="img/tu-alta-pinta.png" alt="Logotipo de Tu Alta Pinta">
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Marca / Tienda online</span>
+              <h3>Tu Alta Pinta</h3>
+              <p>Proyecto de tienda de ropa urbana y outfits. La idea es presentar prendas, publicar novedades y promociones, y facilitar que los clientes consulten por redes sociales.</p>
+              <div class="tag-list"><span>Identidad visual</span><span>Moda urbana</span><span>Redes sociales</span></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-placeholder"><span>WEB</span></div>
+            <div class="project-body">
+              <span class="project-tag">Desarrollo web</span>
+              <h3>Portafolio personal</h3>
+              <p>Una página para presentar mis habilidades, trabajos y aprendizajes utilizando una estructura clara y adaptable a celulares.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-placeholder project-placeholder-alt"><span>✦</span></div>
+            <div class="project-body">
+              <span class="project-tag">Práctica académica</span>
+              <h3>Diseño digital</h3>
+              <p>Prácticas escolares de diseño y tecnología para mejorar la organización visual, la creatividad y el manejo de herramientas informáticas.</p>
+              <div class="tag-list"><span>Diseño</span><span>Informática</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contacto">
+      <p class="eyebrow">HABLEMOS</p>
+      <h2>Contacto</h2>
+      <p class="section-intro">¿Querés conocer más sobre mis proyectos? Podés escribirme por mis redes sociales.</p>
+      <a class="button" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Visitar Instagram</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inicio">David<span>.</span></a>
+      <p>Portafolio personal · David Coello</p>
+      <div class="footer-links"><a href="#sobre-mi">Sobre mí</a><a href="#proyectos">Proyectos</a><a href="#contacto">Contacto</a></div>
+      <p class="copyright">© <span id="year"></span> David Coello. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
